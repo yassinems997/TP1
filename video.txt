@@ -1,0 +1,40 @@
+public class video extends media {
+     private int length ;
+     private String format ;
+     
+     
+     public video ( ) {
+     super ();
+     this.length ="" ;
+     this.format =""; 
+     }
+
+
+	public video(int length, String format) {
+		super();
+		this.length = length;
+		this.format = format;
+	}
+
+
+	public int getLength() {
+		return length;
+	}
+
+
+	public void setLength(int length) {
+		this.length = length;
+	}
+
+
+	public String getFormat() {
+		return format;
+	}
+
+
+	public void setFormat(String format) {
+		this.format = format;
+	}
+     
+     
+}

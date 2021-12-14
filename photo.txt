@@ -1,0 +1,35 @@
+public class photo extends media  {
+	 private float res ;
+	 private int iso ;
+	 
+public photo ( ) {
+	  super ();
+	  this.res = " ";
+	  this.iso= " "; 	  
+			  
+}
+
+public photo(float res, int iso) {
+	super();
+	this.res = res;
+	this.iso = iso;
+}
+
+public float getRes() {
+	return res;
+}
+
+public void setRes(float res) {
+	this.res = res;
+}
+
+public int getIso() {
+	return iso;
+}
+
+public void setIso(int iso) {
+	this.iso = iso;
+}
+	 
+
+}
